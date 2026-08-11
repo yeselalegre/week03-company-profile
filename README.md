@@ -364,7 +364,7 @@ components), the same result could be achieved with:
 
 ---
 
-## 12. 💭 Reflection (400–500 words)
+## 12. 💭 Reflection 
 
 Building VANTA's company profile site was my first time applying Laravel's MVC architecture to a
 complete, multi-page project rather than a single isolated exercise, and it changed how I think
