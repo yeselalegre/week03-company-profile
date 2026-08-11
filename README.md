@@ -2,7 +2,7 @@
   <img src="screenshots/vanta_logo.PNG" alt="VANTA Logo" width="140">
 </p>
 
-#  VANTA — Company Profile Website
+# VANTA — Company Profile Website
 
 > **"Own the Dark."**
 
@@ -311,42 +311,35 @@ components), the same result could be achieved with:
 
 ## 9. 📸 Screenshots
 
-| Requirement | File |
-|---|---|
-| VANTA Logo | `screenshots/vanta_logo.PNG` |
-| Home Page | `screenshots/home_page.png` |
-| About Page | `screenshots/about_page.png` |
-| Services Page | `screenshots/services_page.png` |
-| Contact Page | `screenshots/contact_page.png` |
-| Navigation Bar | `screenshots/navigation_bar.png` |
-| Footer | `screenshots/footer.png` |
-| Route Definitions | `screenshots/routes.png` |
-| Controller | `screenshots/home_controller.png`, `screenshots/about_controller.png`, `screenshots/services_controller.png`, `screenshots/contact_controller.png` |
-| Blade Layout | `screenshots/blades.png` |
-| VS Code Project | `screenshots/vscode.png` |
-| Laravel Folder Structure | `screenshots/vscode.png` |
-| GitHub Repository | `screenshots/github_repo.png` |
-| Browser Output | `screenshots/browser_output.png` |
-| Architecture Diagram | `documentation/archi_diagram.png` |
-
-Rendered below: 👇
-
+### Home Page
 ![Home Page](screenshots/home_page.png)
+
+### About Page
 ![About Page](screenshots/about_page.png)
+
+### Services Page
 ![Services Page](screenshots/services_page.png)
+
+### Contact Page
 ![Contact Page](screenshots/contact_page.png)
+
+### Navigation Bar
 ![Navigation Bar](screenshots/navigation_bar.png)
+
+### Footer
 ![Footer](screenshots/footer.png)
+
+### Route Definitions
 ![Route Definitions](screenshots/routes.png)
+
+### Controller
 ![Home Controller](screenshots/home_controller.png)
 ![About Controller](screenshots/about_controller.png)
 ![Services Controller](screenshots/services_controller.png)
 ![Contact Controller](screenshots/contact_controller.png)
+
+### Blade Layout
 ![Blade Layout](screenshots/blades.png)
-![VS Code Project / Folder Structure](screenshots/vscode.png)
-![GitHub Repository](screenshots/github_repo.png)
-![Browser Output](screenshots/browser_output.png)
-![Architecture Diagram](documentation/archi_diagram.png)
 
 ---
 
@@ -465,4 +458,4 @@ created project (overwriting the defaults), then:
 php artisan serve
 ```
 
-Visit `http://127.0.0.1:8000` and own the dark.
+Visit `http://127.0.0.1:8000` and own the dark. 
