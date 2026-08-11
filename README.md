@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/vanta_logo.PNG" alt="VANTA Logo" width="140">
+  <img src="documentation/vanta_logo.png" alt="VANTA Logo" width="140">
 </p>
 
 # VANTA — Company Profile Website
@@ -98,26 +98,12 @@ immediately know what kind of code they'll find there.
   and Controllers independently.
 - 🧪 **Testability** — controllers and business logic can be tested without needing to render HTML.
 
-### Request flow diagram
+## 🗺️ Architecture Diagram
 
-```
-Browser
-   │
-   ▼
-Route            (routes/web.php)
-   │
-   ▼
-Controller       (CompanyController.php)
-   │
-   ▼
-Blade View       (resources/views/pages/*.blade.php)
-   │
-   ▼
-Response to Browser
-```
+The diagram below illustrates VANTA's Laravel request flow — from the browser, through routing
+and the controller, to the Blade view, and back as an HTML response:
 
-A more detailed version of this flow — including the layout and Blade components — is provided
-as an architecture diagram (see **Architecture Diagram** section below).
+![VANTA Architecture Diagram](documentation/archi_diagram.png)
 
 ---
 
@@ -340,15 +326,6 @@ components), the same result could be achieved with:
 
 ### Blade Layout
 ![Blade Layout](screenshots/blades.png)
-
----
-
-## 🗺️ Architecture Diagram
-
-The diagram below illustrates VANTA's Laravel request flow — from the browser, through routing
-and the controller, to the Blade view, and back as an HTML response:
-
-![VANTA Architecture Diagram](documentation/archi_diagram.png)
 
 ---
 
